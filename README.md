@@ -16,7 +16,7 @@ private void init() {
     }
  ```
     
-    ```
+ ```
       public void clearSetting(){
         loadDataWithBaseURL(null, "", "text/html", "utf-8", null);
         clearHistory();
@@ -24,4 +24,4 @@ private void init() {
         setWebChromeClient(null);
         setWebViewClient(null);
     }
-    ```
+ ```

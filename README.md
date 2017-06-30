@@ -1,5 +1,6 @@
 # hack_code
 
+```
 private void init() {
         WebSettings mWebSettings = getSettings();
         mWebSettings.setSupportZoom(true);
@@ -13,7 +14,9 @@ private void init() {
         setWebViewClient(webViewClient);
         setWebChromeClient(webChromeClient);
     }
+ ```
     
+    ```
       public void clearSetting(){
         loadDataWithBaseURL(null, "", "text/html", "utf-8", null);
         clearHistory();
@@ -21,3 +24,4 @@ private void init() {
         setWebChromeClient(null);
         setWebViewClient(null);
     }
+    ```
